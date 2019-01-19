@@ -19,17 +19,35 @@ getAllOccurrences = (html, baseUrl) ->
       occurrences.push url
   return occurrences
 
+courseNameCleanup = (courseName) ->
+    idx = courseName.indexOf(")")
+    if(idx != -1)
+        return courseName.substr(0, idx)
+    return courseName
+
+removeDuplicates = (ar) ->
+  if ar.length == 0
+    return []  
+  res = {}
+  res[ar[key]] = ar[key] for key in [0..ar.length-1]
+  value for key, value of res
+
 getCourses = (topic) ->
   i = 1
   base_url = 'https://egghead.io/courses/for/'
   params_url = '?page='
+  array_courses = []
   while i==1 || array.length > 0
-    html = await request(uri: base_url + params_url + i)
+    html = await request(uri: base_url + topic + params_url + i)
     $ = cheerio.load(html)
     strHtml = $.html()
     array = getAllOccurrences(strHtml, base_url)
-    console.log array
+    array = array.map (c) -> courseNameCleanup(c)
+    array = array.filter (c) -> c.length>0
+    for course in array
+      array_courses.push course
     i += 1
+  console.log removeDuplicates(array_courses).length
 
 getTopicNames = () ->
     html = await request(uri: 'https://egghead.io/courses/')
@@ -39,6 +57,6 @@ getTopicNames = () ->
 
 run = ->
   #console.log await getTopicNames()
-  getCourses('chrome-devtools')
+  getCourses('angular')
 
 run()
