@@ -1,12 +1,9 @@
-# no-underline db dark-blue z-1 bg-white eh-shadow-1
 require('dotenv').config()
 cheerio = require 'cheerio'
 requestPromise = require 'request-promise'
+program = require 'commander'
 global.request = requestPromise.defaults
   jar: true
-###download_url = 'https://egghead.io/browse/tools/zeit-now'
-params_url = '?page='
-base_url = 'https://egghead.io/courses/for/'###
 
 getAllOccurrences = (html, baseUrl) ->
   index = html.indexOf("https://egghead.io/courses/")
@@ -47,16 +44,16 @@ getCourses = (topic) ->
     for course in array
       array_courses.push course
     i += 1
-  console.log removeDuplicates(array_courses).length
+  removeDuplicates(array_courses)
 
-getTopicNames = () ->
-    html = await request(uri: 'https://egghead.io/courses/')
-    $ = cheerio.load(html)
-    jsonInfo = $('body script[data-component-name=App]').html()
-    return JSON.parse(jsonInfo).tags.map (course) -> [course.name, course.http_url]
+program.parse process.argv
+
+if program.args.length == 0
+  return console.error("Pass the topic of the course to download")
 
 run = ->
-  #console.log await getTopicNames()
-  getCourses('angular')
+  courses = await getCourses(program.args[0])
+  console.log courses
+  console.log "Found " + courses.length + " courses under the topic: " + program.args[0]
 
 run()

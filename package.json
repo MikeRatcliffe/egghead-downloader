@@ -6,7 +6,8 @@
   "scripts": {
     "download": "coffee src/program.coffee",
     "download-bulk": "coffee src/program-bulk.coffee",
-    "scrap-courses": "coffee src/scrap-courses.coffee"
+    "scrap-course": "coffee src/scrap-course.coffee",
+    "scrap-topics": "coffee src/scrap-topics.coffee"
   },
   "author": "Mark Brown",
   "license": "ISC",
