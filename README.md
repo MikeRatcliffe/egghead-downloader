@@ -47,3 +47,8 @@ Example:
 ```
 npm run download-bulk file.txt
 ```
+
+**To download ALL the courses available in the platform (scrap first the list of ALL courses available in the ./files folder)**
+```
+npm run download-all
+```
