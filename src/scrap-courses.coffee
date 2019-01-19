@@ -4,9 +4,9 @@ cheerio = require 'cheerio'
 requestPromise = require 'request-promise'
 global.request = requestPromise.defaults
   jar: true
-download_url = 'https://egghead.io/courses/for/angular'
+download_url = 'https://egghead.io/browse/tools/zeit-now'
 params_url = '?page='
-base_url = 'https://egghead.io/courses/for/angular'
+base_url = 'https://egghead.io/browse/tools/zeit-now'
 
 getAllOccurrences = (html, baseUrl) ->
   index = html.indexOf("https://egghead.io/courses/")
@@ -19,7 +19,7 @@ getAllOccurrences = (html, baseUrl) ->
       occurrences.push url
   return occurrences
 
-get = () ->
+getCourses = (topic) ->
   i = 1
   while i==1 || array.length > 0
     html = await request(uri: base_url + params_url + i)
@@ -29,7 +29,14 @@ get = () ->
     console.log array
     i += 1
 
+getTopicNames = () ->
+    html = await request(uri: 'https://egghead.io/courses/')
+    $ = cheerio.load(html)
+    jsonInfo = $('body script[data-component-name=App]').html()
+    return JSON.parse(jsonInfo).tags.map (course) -> [course.name, course.http_url]
+
 run = ->
-  get()
+  console.log await getTopicNames()
+  #get()
 
 run()
