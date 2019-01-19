@@ -1,4 +1,3 @@
-
 require('dotenv').config()
 program = require 'commander'
 requestPromise = require 'request-promise'
