@@ -1,0 +1,2 @@
+https://egghead.io/courses/create-a-news-app-with-vue-js-and-nuxt
+https://egghead.io/courses/build-a-server-rendered-vue-js-app-with-nuxt-and-vuex

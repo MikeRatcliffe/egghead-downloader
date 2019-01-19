@@ -1,0 +1,4 @@
+https://egghead.io/courses/modern-javascript-tooling-with-react
+https://egghead.io/courses/make-webpack-easy-with-poi
+https://egghead.io/courses/use-webpack-2-for-production-javascript-applications
+https://egghead.io/courses/angular-and-webpack-for-modular-applications

@@ -1,0 +1,2 @@
+https://egghead.io/courses/practical-git-for-everyday-professional-use
+https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github

@@ -1,0 +1,2 @@
+https://egghead.io/courses/develop-a-serverless-backend-using-node-js-on-aws-lambda
+https://egghead.io/courses/scalable-offline-ready-graphql-applications-with-aws-appsync-react

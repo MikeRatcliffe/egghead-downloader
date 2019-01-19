@@ -32,7 +32,7 @@ npm run download https://egghead.io/series/getting-started-with-redux
 
 **To scrap the list of ALL courses available of one specific topic**
 ```
-npm run scrap-course TOPIC
+npm run scrap-course TOPIC. It also writes a file under ./files with the list of courses so it can be used by the download-bulk script
 ```
 Example:
 ```
@@ -41,7 +41,7 @@ npm run scrap-course angular
 
 **To download a list of courses in one go**
 ```
-npm run download FILE_URLS_COURSES
+npm run download-bulk FILE_URLS_COURSES
 ```
 Example:
 ```

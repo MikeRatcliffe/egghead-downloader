@@ -1,0 +1,2 @@
+https://egghead.io/courses/json-web-token-jwt-authentication-with-node-js-and-auth0
+https://egghead.io/courses/angularjs-authentication-with-jwt

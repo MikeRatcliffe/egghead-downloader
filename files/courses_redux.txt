@@ -1,0 +1,11 @@
+https://egghead.io/courses/building-react-applications-with-idiomatic-redux
+https://egghead.io/courses/getting-started-with-redux
+https://egghead.io/courses/redux-and-the-state-adt
+https://egghead.io/courses/reduce-redux-boilerplate-with-redux-actions
+https://egghead.io/courses/manage-react-form-state-with-redux-form
+https://egghead.io/courses/async-react-with-redux-saga
+https://egghead.io/courses/up-and-running-with-redux-observable
+https://egghead.io/courses/start-using-react-to-build-web-applications
+https://egghead.io/courses/build-your-first-production-quality-react-app
+https://egghead.io/courses/build-a-react-app-with-redux
+https://egghead.io/courses/build-angular-1-x-apps-with-redux

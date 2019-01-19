@@ -1,0 +1,3 @@
+https://egghead.io/courses/json-web-token-jwt-authentication-with-node-js-and-auth0
+https://egghead.io/courses/integrate-ibm-domino-with-node-js
+https://egghead.io/courses/getting-started-with-express-js

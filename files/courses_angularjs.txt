@@ -1,0 +1,12 @@
+https://egghead.io/courses/build-angular-1-x-apps-with-redux
+https://egghead.io/courses/using-angular-2-patterns-in-angular-1-x-apps
+https://egghead.io/courses/introduction-to-angular-material
+https://egghead.io/courses/angular-and-webpack-for-modular-applications
+https://egghead.io/courses/angular-automation-with-gulp
+https://egghead.io/courses/angularjs-application-architecture
+https://egghead.io/courses/learn-protractor-testing-for-angularjs
+https://egghead.io/courses/angularjs-fundamentals
+https://egghead.io/courses/angularjs-authentication-with-jwt
+https://egghead.io/courses/angularjs-data-modeling
+https://egghead.io/courses/ionic-quickstart-for-windows-and-mac
+https://egghead.io/courses/building-an-angular-1-x-ionic-application

@@ -1,0 +1,8 @@
+https://egghead.io/courses/build-basic-nativescript-app-templates
+https://egghead.io/courses/use-objective-c-swift-and-java-api-s-in-nativescript-for-angular-ios-and-android-apps
+https://egghead.io/courses/angular-dependency-injection-di-explained
+https://egghead.io/courses/building-angular-components
+https://egghead.io/courses/intro-to-angular-forms
+https://egghead.io/courses/intro-to-angular-router
+https://egghead.io/courses/animate-angular-web-applications
+https://egghead.io/courses/create-native-mobile-apps-with-nativescript-for-angular

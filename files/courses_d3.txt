@@ -1,0 +1,2 @@
+https://egghead.io/courses/build-interactive-javascript-charts-with-d3-v4
+https://egghead.io/courses/use-d3-v3-to-build-interactive-charts-with-javascript

@@ -1,0 +1,10 @@
+https://egghead.io/courses/css-selectors-in-depth
+https://egghead.io/courses/convert-scss-sass-to-css-in-js
+https://egghead.io/courses/optimize-user-experience-for-mobile-devices-and-browsers
+https://egghead.io/courses/build-user-interfaces-by-composing-css-utility-classes-with-tailwind
+https://egghead.io/courses/understand-how-to-style-angular-components
+https://egghead.io/courses/build-complex-layouts-with-css-grid-layout
+https://egghead.io/courses/style-an-application-from-start-to-finish
+https://egghead.io/courses/maintainable-css-using-typestyle
+https://egghead.io/courses/learn-advanced-css-layout-techniques
+https://egghead.io/courses/flexbox-fundamentals

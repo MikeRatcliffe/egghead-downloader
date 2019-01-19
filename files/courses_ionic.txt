@@ -1,0 +1,4 @@
+https://egghead.io/courses/building-apps-with-ionic-2
+https://egghead.io/courses/style-and-theme-ionic-applications
+https://egghead.io/courses/ionic-quickstart-for-windows-and-mac
+https://egghead.io/courses/building-an-angular-1-x-ionic-application

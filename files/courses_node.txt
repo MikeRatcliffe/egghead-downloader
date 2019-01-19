@@ -1,0 +1,10 @@
+https://egghead.io/courses/develop-a-serverless-backend-using-node-js-on-aws-lambda
+https://egghead.io/courses/json-web-token-jwt-authentication-with-node-js-and-auth0
+https://egghead.io/courses/integrate-ibm-domino-with-node-js
+https://egghead.io/courses/build-a-twelve-factor-node-js-app-with-docker
+https://egghead.io/courses/build-a-node-js-rest-api-with-loopback
+https://egghead.io/courses/create-your-own-twitter-bots
+https://egghead.io/courses/build-node-js-apis-with-openapi-spec-swagger
+https://egghead.io/courses/introduction-to-node-the-fundamentals
+https://egghead.io/courses/getting-started-with-express-js
+https://egghead.io/courses/introduction-to-node-servers-with-hapi-js

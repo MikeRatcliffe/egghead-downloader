@@ -1,0 +1,8 @@
+https://egghead.io/courses/build-async-vue-js-apps-with-rxjs
+https://egghead.io/courses/offline-first-progressive-web-apps-pwa-in-vue-js
+https://egghead.io/courses/advanced-fine-grained-control-of-vue-js-components
+https://egghead.io/courses/use-typescript-to-develop-vue-js-web-applications
+https://egghead.io/courses/vue-js-state-management-with-vuex-and-typescript
+https://egghead.io/courses/create-a-news-app-with-vue-js-and-nuxt
+https://egghead.io/courses/develop-basic-web-apps-with-vue-js
+https://egghead.io/courses/build-a-server-rendered-vue-js-app-with-nuxt-and-vuex

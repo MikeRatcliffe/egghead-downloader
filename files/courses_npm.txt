@@ -1,0 +1,3 @@
+https://egghead.io/courses/execute-npm-package-binaries-with-the-npx-package-runner
+https://egghead.io/courses/publish-javascript-packages-on-npm
+https://egghead.io/courses/how-to-use-npm-scripts-as-your-build-tool

@@ -1,0 +1,4 @@
+https://egghead.io/courses/graphql-data-in-react-with-apollo-client
+https://egghead.io/courses/build-a-neo4j-graphql-api
+https://egghead.io/courses/scalable-offline-ready-graphql-applications-with-aws-appsync-react
+https://egghead.io/courses/build-a-graphql-server

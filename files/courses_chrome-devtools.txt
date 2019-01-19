@@ -1,0 +1,4 @@
+https://egghead.io/courses/chrome-devtools-sources-panel
+https://egghead.io/courses/debug-http-with-chrome-devtools-network-panel
+https://egghead.io/courses/using-chrome-developer-tools-elements
+https://egghead.io/courses/js-console-for-power-users

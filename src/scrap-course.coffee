@@ -1,5 +1,6 @@
 require('dotenv').config()
 cheerio = require 'cheerio'
+fs = require "fs"
 requestPromise = require 'request-promise'
 program = require 'commander'
 global.request = requestPromise.defaults
@@ -54,6 +55,7 @@ if program.args.length == 0
 run = ->
   courses = await getCourses(program.args[0])
   courses.map (c) -> console.log c
+  fs.writeFile "./files/courses_#{program.args[0]}.txt", courses.join('\n'), (error) -> console.error("Error writing file", error) if error
   console.log "Found " + courses.length + " courses under the topic: " + program.args[0]
 
 run()

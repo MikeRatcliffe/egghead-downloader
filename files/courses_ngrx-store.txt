@@ -1,0 +1,8 @@
+https://egghead.io/courses/reactive-state-management-in-angular-with-ngrx
+https://egghead.io/courses/get-started-with-angular
+https://egghead.io/courses/angular-2-dependency-injection-di-explained
+https://egghead.io/courses/building-angular-components
+https://egghead.io/courses/intro-to-angular-forms
+https://egghead.io/courses/intro-to-angular-router
+https://egghead.io/courses/animate-angular-web-applications
+https://egghead.io/courses/build-redux-style-applications-with-angular-rxjs-and-ngrx-store

@@ -1,0 +1,2 @@
+https://egghead.io/courses/how-to-write-an-open-source-javascript-library
+https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github

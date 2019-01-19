@@ -1,0 +1,3 @@
+https://egghead.io/courses/develop-react-applications-with-mobx-and-typescript
+https://egghead.io/courses/manage-application-state-with-mobx-state-tree
+https://egghead.io/courses/manage-complex-state-in-react-apps-with-mobx
