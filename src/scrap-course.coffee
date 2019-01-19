@@ -53,7 +53,7 @@ if program.args.length == 0
 
 run = ->
   courses = await getCourses(program.args[0])
-  console.log courses
+  courses.map (c) -> console.log c
   console.log "Found " + courses.length + " courses under the topic: " + program.args[0]
 
 run()

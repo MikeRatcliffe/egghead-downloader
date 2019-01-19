@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "download": "coffee src/program.coffee",
-    "download-bulk": "coffee src/program-bulk.coffee",
+    "download-bulk": "coffee src/download-bulk.coffee",
     "scrap-course": "coffee src/scrap-course.coffee",
     "scrap-topics": "coffee src/scrap-topics.coffee"
   },
