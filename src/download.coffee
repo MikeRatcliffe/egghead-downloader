@@ -22,7 +22,7 @@ fetchLinks = (url)->
   series = parts[parts.length - 1]
 
   console.log "Fetching: #{url}"
-  html = await request(url)
+  html = try await request(url) catch e then ""
   $ = cheerio.load(html)
 
   unless html.includes("'PRO Member': true")
